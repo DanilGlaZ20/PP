@@ -73,10 +73,7 @@ namespace Matrix_Multiplication
                 c.Start();
                 c.Join();
             }
-            foreach (var c in calculators) //ожидаем потоки
-            {
-                c.Join();
-            }
+            
 
             
         }
