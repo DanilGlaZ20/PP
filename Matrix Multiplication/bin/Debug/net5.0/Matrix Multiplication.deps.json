@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Matrix Multiplication/1.0.0": {
+        "runtime": {
+          "Matrix Multiplication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Matrix Multiplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

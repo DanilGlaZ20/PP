@@ -1,0 +1,16 @@
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\Matrix Multiplication.exe
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\Matrix Multiplication.deps.json
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\Matrix Multiplication.runtimeconfig.json
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\Matrix Multiplication.runtimeconfig.dev.json
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\Matrix Multiplication.dll
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\ref\Matrix Multiplication.dll
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\bin\Debug\net5.0\Matrix Multiplication.pdb
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.csproj.AssemblyReference.cache
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.AssemblyInfoInputs.cache
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.AssemblyInfo.cs
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.csproj.CoreCompileInputs.cache
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.dll
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\ref\Matrix Multiplication.dll
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.pdb
+C:\Users\79777\RiderProjects\мое ПП\Matrix Multiplication\Matrix Multiplication\obj\Debug\net5.0\Matrix Multiplication.genruntimeconfig.cache

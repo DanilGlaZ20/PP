@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L7qK2BK6UghvNpaNFPPmd9WbPa88kkGOkrvU1pfyPHKP0i9pGXadfgp6NRry6btoQXcNVtYXyoads9oGq7Tp9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\79777\\RiderProjects\\мое ПП\\Matrix Multiplication\\Matrix Multiplication\\Matrix Multiplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\79777\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
