@@ -6,15 +6,13 @@ namespace Matrix_Multiplication
 
     class Program
     {
-
-        
         public static int N = Convert.ToInt16(Console.ReadLine()); //размер матриц N*N
 
         public static int[,] matrix1;
         public static int[,] matrix2;
         public static int[,] MainMatrix;
         private static Random _random = new Random(); //для заполнения матриц
-        
+
         public static void DisplayMatrix() //метод заполнения матриц
         {
             Console.Write("Введите размер матрицы. N= ");
@@ -50,47 +48,53 @@ namespace Matrix_Multiplication
         public static void Main(string[] args)
         {
             DisplayMatrix();
-            MainMatrix= new int[matrix1.GetLength(1), matrix2.GetLength(0)];
-            MainMatrix = Multiplication(matrix1, matrix2);
+            Multiplication(matrix1, matrix2);
             DisplayMainMatrix(MainMatrix);
-            
+
         }
 
-        public static int[,] Multiplication(int[,] matrix1, int[,] matrix2)
+        static int[,] Multiplication(int[,] matrix1, int[,] matrix2)
         {
-            int[,] result = new int[matrix1.GetLength(1),matrix2.GetLength(0)];
+            MainMatrix = new int[matrix1.GetLength(1), matrix2.GetLength(0)];
             var timer = System.Diagnostics.Stopwatch.StartNew();
             Parallel.For((long) 0, matrix1.GetLength(1), i =>
             {
                 for (int j = 0; j < matrix2.GetLength(0); j++)
                 {
-                    result[i, j] = 0;
+                    MainMatrix[i, j] = 0;
                     for (int k = 0; k < matrix1.GetLength(1); k++)
                     {
-                        result[i, j] += matrix1[i, k] * matrix2[k, j];
+                        MainMatrix[i, j] += matrix1[i, k] * matrix2[k, j];
                     }
+
+
                 }
+
+
             });
 
             timer.Stop();
-            Console.WriteLine($"Время вычислений в параллельном режиме {timer.ElapsedMilliseconds}");
-            return result;
+            Console.WriteLine($"Время вычислений в  многопоточнй программе {timer.ElapsedMilliseconds}");
+            return MainMatrix;
         }
+
         static void DisplayMainMatrix(int[,] m)
         {
+            Console.WriteLine("Получившаяся матрица");
+            MainMatrix = new int[matrix1.GetLength(1), matrix2.GetLength(0)];
             for (int i = 0; i < m.GetLength(0); i++)
             {
                 for (int j = 0; j < m.GetLength(1); j++)
                 {
-                    Console.Write(m[i, j]+" " );
+                    Console.Write($"{m[i, j]}\t");
                 }
-                
+
                 Console.WriteLine();
             }
         }
-       
-        
-           
+
+
+
     }
 }
         

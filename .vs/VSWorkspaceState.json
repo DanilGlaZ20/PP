@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Matrix Multiplication"
   ],
-  "SelectedNode": "\\Matrix Multiplication.sln",
+  "SelectedNode": "\\Matrix Multiplication\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
